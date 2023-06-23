@@ -56,7 +56,7 @@ yabai -m config		mouse_drop_action		swap
 # Space Settings
 
 # Exclude Apps
-yabai -m rule --add	app="^(LuLu|Calculator|Software Update|Dictionary|VLC|System Preferences|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$"	manage=off
+yabai -m rule --add	app="^(LuLu|Software Update|Dictionary|VLC|System Preferences|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|Steam|Activity Monitor)$"	manage=off
 yabai -m rule --add	app="^(System Settings|App Store|Calculator)$"	manage=off
 yabai -m rule --add	app="^(微信|Clash for Windows|Raycast)$"	manage=off
 
